@@ -1,0 +1,44 @@
+<html>
+<head>
+<style>
+body,html{
+margin:0;
+padding:0;
+}
+.container{
+background:#fafafa;
+position:absolute;
+height:100vh;
+width:100vw;
+display:flex;
+justify-content:center;
+align-items:center;
+animation:anime 5s linear infinte;
+animation-delay:5s;
+}
+#name{
+font-size:30px;
+font-family:sans;
+font-weight:50px;
+text-shadow:5px 10px 10px solid black;
+animation:anime 3s linear infinite;
+color:blue;
+}
+@keyframe anime{
+0%{
+color:blue;}
+
+100%{
+color:red;
+}
+
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div id="name">i write code!!</div>
+</div>
+</body>
+
+</html>
